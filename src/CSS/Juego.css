@@ -1,0 +1,103 @@
+.grid-container {
+   border: solid 4px black;
+   display: inline-block;
+   margin-left: 20px;
+   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.9);
+   margin-left: 40px;
+   padding: 10px;
+   background-color: #f9f9f9; 
+   transform: translate(0,-50px);
+}
+
+.Text {
+   margin-left: 20px;
+   border-radius: 5px;
+   padding: 10px;
+   font-size: 16px;
+   color: #333;
+}
+
+.btg-container {
+   margin-left: 20px;
+   border-radius: 5px;
+   padding: 10px;
+}
+
+.btg-container button {
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+   background-color: #007bff; /* Color de fondo azul */
+   color: white; /* Color de texto blanco */
+   border: none;
+   padding: 10px 20px;
+   margin: 5px;
+   border-radius: 5px;
+   font-size: 14px;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+   cursor: pointer;
+}
+
+.btg-container button:hover {
+   background-color: #0056b3; /* Fondo más oscuro en hover */
+   transform: scale(1.05); /* Agrandar un poco en hover */
+}
+
+.btg-container button:active {
+   background-color: #004085; /* Fondo aún más oscuro en clic */
+   transform: scale(0.95); /* Reducir un poco en clic */
+}
+
+.btg-container button:focus {
+   outline: none;
+   box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.75); /* Resaltar con sombra en focus */
+}
+
+
+.slider-container {
+   margin-left: 320px;
+   transform: translate(0,-35px);
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+   width: 250px;
+}
+
+.slider-container label {
+   font-size: 14px;
+   color: #333;
+   margin-right: 10px; 
+   white-space: nowrap; 
+}
+
+.slider-container input {
+   -webkit-appearance: none; 
+   appearance: none;
+   width: 100%;
+   height: 6px;
+   background: #007bff; 
+   border-radius: 5px;
+   outline: none;
+   transition: background 0.3s ease;
+   cursor: pointer;
+}
+
+.slider-container input[type="range"]::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   appearance: none;
+   width: 15px;
+   height: 15px;
+   background: #ffffff; 
+   border: 2px solid #007bff;
+   border-radius: 50%;
+   cursor: pointer;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+   transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.slider-container input:hover{
+   background: #0056b3; 
+}
+
+.poblacion-container{
+   margin-left: 40px ;
+   transform: translate(0,-42px);
+}
