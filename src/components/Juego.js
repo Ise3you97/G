@@ -88,7 +88,7 @@ function Juego() {
       setPoblacion(contarPoblacion(newGrid));
       return newGrid;
     });
-    setTimeout(ejecutarSimulacion, 100); // Tiempo  
+    setTimeout(ejecutarSimulacion, 100); //Tiemp
   }, []);
 
   // Función para alternar el estado de una celda
